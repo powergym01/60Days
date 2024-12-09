@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Insure - Insurance HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .ezy__header12 {
+        /* Bootstrap variables */
+        --bs-body-color: #ffffff;
+        --bs-body-bg: rgb(58, 189, 187);
+
+        /* Easy Frontend variables */
+        --ezy-theme-color: rgb(13, 110, 253);
+        --ezy-theme-color-rgb: 13, 110, 253;
+        --ezy-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+
+        background-color: var(--ezy-theme-color);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .ezy__header12 > div {
+        background-color: var(--ezy-theme-color);
+        padding-top: 50px;
+      }
+
+      /* @media (min-width: 768px) {
+        .ezy__header12 > div {
+          padding-top: 180px;
+        }
+      } */
+
+      @media (min-width: 992px) {
+        .ezy__header12-content {
+          padding-bottom: 100px;
+        }
+      }
+
+      .ezy__header12-heading {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 25px;
+        color: var(--bs-body-color);
+      }
+
+      @media (min-width: 768px) {
+        .ezy__header12-heading {
+          font-size: 70px;
+          line-height: 70px;
+        }
+      }
+
+      .ezy__header12-sub-heading {
+        color: var(--bs-body-color);
+        font-size: 22px;
+        line-height: 1.5;
+        opacity: 0.8;
+      }
+
+      .ezy__header12-btn {
+        padding: 12px 30px;
+        box-shadow: var(--ezy-shadow);
+        border-radius: 10px;
+      }
+      .custom-img {
+        width: 300px; /* Default size */
+        max-width: 100%;
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      @media (min-width: 768px) {
+        .custom-img {
+          width: 400px; /* Larger size for medium screens and above */
+        }
+      }
+
+      @media (max-width: 576px) {
+        .custom-img {
+          width: 200px; /* Smaller size for small screens */
+        }
+      }
+
+      /* Make the video container responsive */
+      .video-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Make the video cover the entire container */
+      }
+
+      .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        width: 90%;
+      }
+
+      .testimonial-text {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .author {
+        font-size: 1.5rem;
+        font-style: italic;
+      }
+
+      @media (max-width: 768px) {
+        .testimonial-text {
+          font-size: 1.5rem;
+        }
+
+        .author {
+          font-size: 1.2rem;
+        }
+      }
+      /* Ensure the image is centered on mobile screens */
+      .custom-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Optional: Adjust image size on smaller screens */
+      @media (max-width: 767px) {
+        .custom-img {
+          max-width: 90%; /* Adjust as needed */
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <img src="./img/Dr  Jaisons BRO (1)-03.png" alt="" />
+      </a>
+      <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <img src="./img/logo.png" alt="" />
+      </a>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <!-- Carousel End -->
+    <section class="ezy__header12 light">
+      <div>
+        <svg
+          class="position-absolute start-0 top-0"
+          width="168"
+          height="213"
+          viewBox="0 0 168 213"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="62"
+            cy="106.602"
+            r="106"
+            fill="#DAF3F3"
+            fill-opacity="0.14"
+          />
+        </svg>
+        <svg
+          class="position-absolute end-0 bottom-0"
+          width="385"
+          height="539"
+          viewBox="0 0 385 539"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M56 538.602C81.3333 435.923 192.8 230.774 436 231.604"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M45 492.602C70.3333 389.923 181.8 184.774 425 185.604"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M34 446.602C59.3333 343.923 170.8 138.774 414 139.604"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M23 400.602C48.3333 297.923 159.8 92.7743 403 93.6041"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M12 354.602C37.3333 251.923 148.8 46.7743 392 47.6041"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M1 308.602C26.3333 205.923 137.8 0.774349 381 1.60407"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+        </svg>
+        <div class="container position-relative">
+          <div class="row align-items-end">
+            <div
+              class="col-lg-6 pe-xl-5 text-center text-lg-start ezy__header12-content"
+            >
+              <h2 class="ezy__header12-heading mb-4" style="line-height: 1.5">
+                Dr. Jaison's 20KG's In 60DAYS
+              </h2>
+              <p class="ezy__header12-sub-heading">
+                Achieve your dream body with Dr. Jaison's proven weight loss
+                program. Lose up to 20KG in just 60 days with personalized
+                support and expert guidance.
+              </p>
+            </div>
+            <div class="col-lg-6 mt-lg-0 text-center text-lg-start">
+              <img
+                src="./img/20 KG NEW DESIGN.png"
+                alt=""
+                class="rounded img-fluid mt-3 custom-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-white sm:py-16 lg:py-24">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+          >
+            Benefits
+          </h2>
+          <p
+            class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600"
+          >
+            Transform Your Body and Health in Just 60 Days.
+          </p>
+        </div>
+
+        <div class="relative mt-12 lg:mt-20">
+          <div
+            class="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28"
+          >
+            <img
+              class="w-full"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="relative grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12"
+          >
+            <div>
+              <div
+                class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow"
+              >
+                <span class="text-xl font-semibold text-gray-700"> 1 </span>
+              </div>
+              <h3
+                class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
+              >
+                Lose Significant Weight Quickly and Safely
+              </h3>
+            </div>
+
+            <div>
+              <div
+                class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow"
+              >
+                <span class="text-xl font-semibold text-gray-700"> 2 </span>
+              </div>
+              <h3
+                class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
+              >
+                Improve Overall Health and Vitality
+              </h3>
+            </div>
+
+            <div>
+              <div
+                class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow"
+              >
+                <span class="text-xl font-semibold text-gray-700"> 3 </span>
+              </div>
+              <h3
+                class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
+              >
+                Gain Confidence and Empowerment
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-white sm:py-16 lg:py-24">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 gap-12 text-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-16"
+        >
+          <div>
+            <div class="relative flex items-center justify-center mx-auto">
+              <svg
+                class="text-orange-100"
+                width="62"
+                height="64"
+                viewBox="0 0 62 64"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M62 13.001C62 33.4355 53.9345 64.001 33.5 64.001C13.0655 64.001 0 50.435 0 30.0005C0 9.56596 2.56546 4.00021 23 4.00021C43.4345 4.00021 62 -7.43358 62 13.001Z"
+                />
+              </svg>
+              <svg
+                class="absolute text-orange-600 w-9 h-9"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                />
+              </svg>
+            </div>
+            <h3 class="mt-8 text-lg font-semibold text-black">
+              Structured Program
+            </h3>
+            <p class="mt-4 text-base text-gray-600">
+              Structured Program with Detailed Meal Plans and Workouts
+            </p>
+          </div>
+
+          <div>
+            <div class="relative flex items-center justify-center mx-auto">
+              <svg
+                class="text-yellow-100"
+                width="78"
+                height="78"
+                viewBox="0 0 78 78"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.49996 28.0002C4.09993 47.9554 14.1313 66.7885 35.5 71.5002C56.8688 76.2119 68.0999 58.4553 72.5 38.5001C76.9 18.5449 68.3688 12.711 47 7.99931C25.6312 3.28759 12.9 8.04499 8.49996 28.0002Z"
+                />
+              </svg>
+              <svg
+                class="absolute text-yellow-500 w-9 h-9"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"
+                />
+              </svg>
+            </div>
+            <h3 class="mt-8 text-lg font-semibold text-black">
+              Accountability
+            </h3>
+            <p class="mt-4 text-base text-gray-600">
+              Accountability and Support from Dr. Jaison's Team
+            </p>
+          </div>
+
+          <div>
+            <div class="relative flex items-center justify-center mx-auto">
+              <svg
+                class="text-gray-100"
+                width="62"
+                height="64"
+                viewBox="0 0 62 64"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M62 13.001C62 33.4355 53.9345 64.001 33.5 64.001C13.0655 64.001 0 50.435 0 30.0005C0 9.56596 2.56546 4.00021 23 4.00021C43.4345 4.00021 62 -7.43358 62 13.001Z"
+                ></path>
+              </svg>
+              <svg
+                class="absolute text-gray-600 w-9 h-9"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                />
+              </svg>
+            </div>
+            <h3 class="mt-8 text-lg font-semibold text-black">Monitoring</h3>
+            <p class="mt-4 text-base text-gray-600">
+              Ongoing Monitoring and Adjustments for Optimal Results
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="max-w-2xl mx-auto" style="margin-top: 50px">
+      <div
+        id="default-carousel"
+        class="relative rounded-lg overflow-hidden shadow-lg"
+        data-carousel="static"
+      >
+        <!-- Carousel wrapper -->
+        <div class="relative h-80 md:h-96" data-carousel-inner>
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-01.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-02.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-03.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-04.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 1"
+            />
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-05.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 2"
+            />
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-06.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-07.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-08.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-09.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-10.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-11.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-12.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="./img/Untitled-3-13.jpg"
+              class="object-contain w-full h-full"
+              alt="Slide 3"
+            />
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div
+          class="flex absolute bottom-5 left-1/2 z-30 -translate-x-1/2 space-x-2"
+          data-carousel-indicators
+        >
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
+          ></button>
+        </div>
+        <!-- Slider controls -->
+        <button
+          type="button"
+          class="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+          data-carousel-prev
+        >
+          <svg
+            class="w-5 h-5 text-gray-600"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            ></path>
+          </svg>
+        </button>
+        <button
+          type="button"
+          class="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+          data-carousel-next
+        >
+          <svg
+            class="w-5 h-5 text-gray-600"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    </div>
+
+    <div class="video-container">
+      <video class="video" autoplay muted loop>
+        <source src="./img/v.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- About Start -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
